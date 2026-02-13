@@ -1,0 +1,19 @@
+TASK 16 – TIME SERIES FORECASTING
+
+Dataset: Superstore Sales Dataset
+
+Steps Performed:
+1. Converted mixed date formats into datetime.
+2. Aggregated sales monthly.
+3. Observed clear yearly seasonality and upward trend.
+4. Split dataset into train and test (last 6 months).
+5. Applied Holt-Winters Exponential Smoothing.
+6. Forecasted next 6 months sales.
+
+Model Performance:
+MAE: 3534.00
+MAPE: 16.67 %
+
+Conclusion:
+The model captures overall trend and seasonality.
+Forecast accuracy is acceptable for business planning.
